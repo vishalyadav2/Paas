@@ -13,9 +13,9 @@ def result():
     operation = request.form.get("operation")
     if(operation == 'Fahrenheit'):
         result = (var_1 * 9/5) + 32;
-     elif(operation == 'Celcius'):
+    elif(operation == 'Celcius'):
         result = (var_1 – 32) * 5/9;
-     elif(operation == 'Kelvin'):
+    elif(operation == 'Kelvin'):
         result = (var_1 *7)+2;
     else:
         result = 'INVALID CHOICE'
